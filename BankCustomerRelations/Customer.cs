@@ -7,7 +7,7 @@ namespace BankCustomerRelations
     class Customer : Person
     {
 
-        public string BankAccount { get; set; }
+        public string BankIBAN { get; set; }
         public string AccountType { get; set; }
         public string CustomerType { get; set; }
         public List<string> CreditCards { get; set; }

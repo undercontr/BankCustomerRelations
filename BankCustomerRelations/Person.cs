@@ -19,7 +19,10 @@ namespace BankCustomerRelations
         public string Address { get; set; }
         [Required]
         public string PhoneNumber { get; set; }
-        public enum Gender
+
+        public GenderEnum Gender { get; set; }
+
+        public enum GenderEnum
         {
             Female,
             Male
